@@ -1,9 +1,10 @@
-rootProject.name = "thoribio framework"
+rootProject.name = "thoribio"
 
 listOf(
-    "kotlin/multiplatform",
-    "kotlin/ferret"
+    "kotlin/platform",
+    "kotlin/seed"
 ).forEach { project ->
     
     includeBuild(project)
+    
 }
